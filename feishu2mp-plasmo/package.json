@@ -1,8 +1,11 @@
 {
   "name": "feishu2mp-plasmo",
+  "displayName": "飞书文档转微信公众号",
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "description": "在飞书文档页侧边栏转换 Markdown 与微信公众号 HTML。作者：公众号 饼干哥哥AGI",
+  "author": "公众号：饼干哥哥AGI",
   "packageManager": "pnpm@9.0.0",
   "scripts": {
     "dev": "plasmo dev",

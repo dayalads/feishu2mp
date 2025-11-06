@@ -107,6 +107,11 @@ const Options = () => {
           <li>自定义主题同样保存在浏览器 <code>chrome.storage</code> 中，您可随时清除。</li>
         </ul>
       </div>
+
+      {/* 作者署名 */}
+      <div style={{ marginTop: 18, textAlign: "center", fontSize: 12, color: "#9ca3af" }}>
+        作者：公众号 饼干哥哥AGI
+      </div>
     </div>
   )
 }

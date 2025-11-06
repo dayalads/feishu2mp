@@ -190,7 +190,10 @@ const SidePanel = () => {
   return (
     <div style={{ width: "100%", padding: 12, boxSizing: "border-box", fontFamily: "system-ui, -apple-system, Segoe UI, Roboto" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 10 }}>
-        <div style={{ fontSize: 16, fontWeight: 700 }}>飞书文档转 Markdown</div>
+        <div>
+          <div style={{ fontSize: 16, fontWeight: 700 }}>飞书文档转公众号</div>
+          <div style={{ fontSize: 11, color: "#6b7280" }}>by 公众号：饼干哥哥AGI</div>
+        </div>
         <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
           <button onClick={() => setShowInfo(true)} title="说明" style={{ border: "none", background: "transparent", cursor: "pointer" }}>ℹ️</button>
           <button onClick={openOptions} title="设置" style={{ border: "none", background: "transparent", cursor: "pointer" }}>⚙️ 设置</button>
@@ -200,7 +203,7 @@ const SidePanel = () => {
       <div style={{ border: "1px solid #e5e7eb", borderRadius: 8, padding: 10 }}>
         <div style={{ fontSize: 12, color: "#6b7280" }}>当前在飞书文档页使用，无需手动输入链接</div>
         <div style={{ display: "flex", gap: 8, marginTop: 10 }}>
-          <button onClick={onMdConvert} disabled={processingMd} style={{ flex: 1, padding: 8 }}>{processingMd ? "转换中..." : "开始转换"}</button>
+          <button onClick={onMdConvert} disabled={processingMd} style={{ flex: 1, padding: 8 }}>{processingMd ? "转换中..." : "转成 Markdown"}</button>
           <button onClick={() => { setMarkdown(""); setMdStatus({ type: "idle", text: "" }) }} style={{ width: 80, padding: 8 }}>重置</button>
         </div>
 
