@@ -1,0 +1,54 @@
+{
+  "tags": {
+    "p": "margin: 12px 0; text-align: justify; word-wrap: break-word; word-break: break-all; line-height: 1.8; font-size: 17px; color: #333333;",
+    "h1": "font-size: 24px; font-weight: bold; line-height: 1.4; margin: 20px 0 15px; color: #333333;",
+    "h2": "font-size: 22px; font-weight: bold; line-height: 1.4; margin: 18px 0 12px; color: #333333;",
+    "h3": "font-size: 20px; font-weight: bold; line-height: 1.4; margin: 16px 0 10px; color: #333333;",
+    "h4": "font-size: 18px; font-weight: bold; line-height: 1.4; margin: 14px 0 8px; color: #333333;",
+    "h5": "font-size: 17px; font-weight: bold; line-height: 1.4; margin: 12px 0 6px; color: #333333;",
+    "h6": "font-size: 16px; font-weight: bold; line-height: 1.4; margin: 10px 0 4px; color: #333333;",
+    "ul": "margin: 12px 0; padding-left: 30px; list-style-type: disc;",
+    "ol": "margin: 12px 0; padding-left: 30px;",
+    "li": "margin: 8px 0; line-height: 1.8; font-size: 17px; color: #333333;",
+    "blockquote": "margin: 15px 0; padding: 10px 15px; border-left: 4px solid #e6e6e6; background-color: #f9f9f9; color: #666666; font-size: 16px; line-height: 1.8;",
+    "pre": "background-color: #f5f5f5; padding: 15px; border-radius: 5px; overflow-x: auto; margin: 15px 0; font-size: 14px; line-height: 1.6; color: #333333;",
+    "code": "background-color: #f5f5f5; padding: 2px 6px; border-radius: 3px; font-family: 'Consolas', 'Monaco', 'Courier New', monospace; font-size: 14px; color: #e83e8c;",
+    "img": "max-width: 100%; height: auto; display: block; margin: 15px auto; border-radius: 5px;",
+    "a": "color: #576b95; text-decoration: none; border-bottom: 1px solid #576b95;",
+    "hr": "border: none; border-top: 1px solid #eaeaea; margin: 20px 0;",
+    "strong": "font-weight: bold; color: #333333;",
+    "em": "font-style: italic;",
+    "u": "text-decoration: underline;",
+    "span": "font-size: 17px; line-height: 1.8; color: #333333;",
+    "table": "width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 16px;",
+    "th": "border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f5f5f5; font-weight: bold;",
+    "td": "border: 1px solid #ddd; padding: 10px; text-align: left;",
+    "figure": "margin: 15px 0;",
+    "figcaption": "text-align: center; color: #888; font-size: 0.8em; margin-top: 5px;"
+  },
+  "pre_code": "background-color: transparent; padding: 0; font-family: 'Consolas', 'Monaco', 'Courier New', monospace; font-size: 14px; color: #333333;",
+  "callout": {
+    "container_tag": "section",
+    "container_style": "box-sizing:border-box; max-width:100%; margin:15px 0; border-radius:12px; padding:14px 16px; font-family: Optima,'Microsoft YaHei',PingFangSC-Regular,serif; color:#333; line-height:1.8; word-break:break-word; text-align:left;",
+    "icon_style": "display:inline-block; font-size:18px; line-height:1.8; vertical-align:top; margin-right:8px;",
+    "content_tag": "section",
+    "content_style": "display:inline-block; vertical-align:top; width:calc(100% - 30px); font-size:16px; line-height:1.8; color:#333; text-align:left;",
+    "types": {
+      "TIP": { "bg": "#FFFBE6", "border": "#F7E9C4", "icon": "💡" },
+      "NOTE": { "bg": "#FFF8EE", "border": "#F0E6D8", "icon": "📌" },
+      "WARNING": { "bg": "#FFF1F0", "border": "#FFD8D3", "icon": "⚠️" },
+      "INFO": { "bg": "#F6FAFE", "border": "#DCEBFF", "icon": "ℹ️" }
+    }
+  },
+  "codeblock": {
+    "container_tag": "section",
+    "container_style": "margin:0; padding:0 10px; font-family: Optima,'Microsoft YaHei',PingFangSC-regular,serif; font-size:16px; color:#000; line-height:1.5em; word-break:break-word; overflow-wrap:break-word; text-align:left;",
+    "pre_tag": "pre",
+    "pre_style": "border-radius:5px; box-shadow: rgba(0,0,0,0.55) 0px 2px 10px; text-align:left; margin:10px 0; padding:0;",
+    "topbar_tag": "span",
+    "topbar_style": "display:block; height:30px; width:100%; background:#282c34 url(https://files.mdnice.com/user/3441/876cad08-0422-409d-bb5a-08afec5da8ee.svg) no-repeat 10px 10px / 40px; margin-bottom:-7px; border-radius:5px;",
+    "code_tag": "code",
+    "code_style": "overflow-x:auto; padding:16px; padding-top:15px; color:#abb2bf; background:#282c34; border-radius:5px; display:block; font-family:Consolas,Monaco,Menlo,monospace; font-size:12px;",
+    "line_break_element": "br"
+  }
+}

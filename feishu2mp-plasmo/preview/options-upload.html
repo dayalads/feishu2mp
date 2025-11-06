@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>插件选项页 - 主题上传预览</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto; padding: 16px; background: #f8fafc; }
+      .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px; max-width: 720px; margin: 0 auto; }
+      .title { margin-top: 0; }
+      .upload { margin-top: 18px; background: #fff7ed; border: 1px solid #fed7aa; border-radius: 8px; padding: 12px; }
+      .status { margin-top: 8px; font-size: 13px; }
+      .safe { margin-top: 16px; background: #f0fdf4; border: 1px solid #dcfce7; border-radius: 8px; padding: 12px; }
+      button { padding: 6px 12px; }
+      input[type="text"] { display:block; width:100%; margin-bottom:10px; padding:8px; border-radius:6px; border:1px solid #d1d5db; }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2 class="title">插件设置（预览）</h2>
+      <label style="display:block; font-size:13px; color:#6b7280">飞书 App ID</label>
+      <input type="text" placeholder="App ID" />
+      <label style="display:block; font-size:13px; color:#6b7280">飞书 App Secret</label>
+      <input type="text" placeholder="App Secret" />
+      <label style="display:block; font-size:13px; color:#6b7280">后端服务地址</label>
+      <input type="text" placeholder="http://localhost:8080" />
+      <button>保存</button>
+
+      <div class="upload">
+        <div style="font-weight:600; margin-bottom:6px">自定义主题（JSON）</div>
+        <div style="font-size:13px; color:#6b7280; margin-bottom:8px">上传后，插件将优先使用您上传的主题；后端继续使用默认主题。</div>
+        <input type="file" accept="application/json,.json" />
+        <div class="status">当前状态：<span style="color:#ef4444">未上传</span></div>
+        <div style="margin-top:8px">
+          <button disabled>清除已上传主题</button>
+        </div>
+      </div>
+
+      <div class="safe">
+        <div style="font-weight:600; margin-bottom:6px">安全说明</div>
+        <ul style="margin:0; padding-left:18px; color:#374151">
+          <li>凭证仅保存在浏览器的 <code>chrome.storage</code> 中，不会上传。</li>
+          <li>后端仅用于拉取并解析您有权限访问的文档。</li>
+          <li>自定义主题同样保存在浏览器 <code>chrome.storage</code> 中，您可随时清除。</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  </html>
